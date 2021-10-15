@@ -921,7 +921,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2123203039388400046
 Transform:
   m_ObjectHideFlags: 0
@@ -1137,6 +1137,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7167327023987239882}
+  - component: {fileID: 1518055507}
+  - component: {fileID: 1518055506}
+  - component: {fileID: 8537673847666039389}
   m_Layer: 0
   m_Name: Orc
   m_TagString: Untagged
@@ -1160,6 +1163,75 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1518055507
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6037706895243386701}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d60f35db1ca269c44af148b2de6a2223, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1518055506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6037706895243386701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb588c435a30c9444ae071d9c8509c5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _testTarget: {fileID: 0}
+  _speed: 0
+--- !u!114 &8537673847666039389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6037706895243386701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2d8418b0b9634b1892b0268dd9c2743, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boneShape: 1
+  drawBones: 1
+  drawTripods: 0
+  boneSize: 1
+  tripodSize: 1
+  boneColor: {r: 0, g: 0, b: 1, a: 0.5}
+  m_Transforms:
+  - {fileID: 1768397708854540205}
+  - {fileID: 1339135059203920669}
+  - {fileID: 1726272836157253578}
+  - {fileID: 3231220402821845284}
+  - {fileID: 4658266001725196493}
+  - {fileID: 3382733549709155662}
+  - {fileID: 3332663734318792894}
+  - {fileID: 8266348833519189764}
+  - {fileID: 3624234434658216622}
+  - {fileID: 9028643169940858420}
+  - {fileID: 8606042835780154307}
+  - {fileID: 3525880477870993237}
+  - {fileID: 3695950289366851727}
+  - {fileID: 8039943959500783827}
+  - {fileID: 1507901636642090970}
+  - {fileID: 1706435045606353996}
+  - {fileID: 6632521528358417009}
 --- !u!1 &6351538585810191726
 GameObject:
   m_ObjectHideFlags: 0
@@ -1368,7 +1440,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &182851762098722898
 Transform:
   m_ObjectHideFlags: 0
